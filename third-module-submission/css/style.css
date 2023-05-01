@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/****HEADER STYLE****/
+#header-nav{
+    background-color: #B7B3B5;
+    border-radius: 0;
+}
+
+.navbar-brand a{
+    color: #000000;
+    font-size: 2em;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
+
+ul{
+    background-color: #ffffff;
+}
+
+#collapsable-nav li{
+    border: 1px solid black; /******QUESTO NON VA BENE, DA FIXARE******/
+}
+
+
+/****MAIN CONTENT****/
+#main-content{
+    width: 90%;
+}
+#main-title{
+    margin-bottom: 40px;
+}
+.tile-box{
+    background-color: #B7B3B5;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tile-title{
+    color: #c42828;
+    font-size: 1.8em;
+    padding-bottom: 10px;
+}
+
+
+
+
