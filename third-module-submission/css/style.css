@@ -1,7 +1,5 @@
-*{
+body{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 /****HEADER STYLE****/
@@ -21,26 +19,24 @@
 
 ul{
     background-color: #ffffff;
+    border: 1px solid black;
 }
 
-#collapsable-nav li{
-    border: 1px solid black; /******QUESTO NON VA BENE, DA FIXARE******/
+li:nth-child(1), li:nth-child(2){
+    border-bottom: 1px solid black;
 }
+/****END HEADER STYLE****/
 
 
 /****MAIN CONTENT****/
-#main-content{
-    width: 90%;
-}
 #main-title{
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .tile-box{
     background-color: #B7B3B5;
     border: 1px solid black;
-    position: relative;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .tile-title{
@@ -48,6 +44,9 @@ ul{
     font-size: 1.8em;
     padding-bottom: 10px;
 }
+
+
+
 
 
 
