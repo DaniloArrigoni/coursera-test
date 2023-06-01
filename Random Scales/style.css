@@ -1,9 +1,34 @@
 body{
     text-align: center;
+    font-size: 1.4em;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #59D082;
+    font-family: 'Cabin', sans-serif;
+}
+
+.main-title{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 4em;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 #display{
     border: 5px solid black;
-    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    padding: 5px;
     height: 50px;
+    color: rgb(255, 250, 250);
+}
+
+#suggest{
+    font-style: italic;
+    margin-top: 20px;
+    height: 140px;
+}
+.copyright{
+    color:white;
 }
